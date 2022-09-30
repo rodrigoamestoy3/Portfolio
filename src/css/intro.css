@@ -1,0 +1,75 @@
+@keyframes element {
+    
+}
+
+.introduction {
+    width: 75%;
+    margin: 15% auto;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    background-color: var(--custom-blue);
+    box-shadow: 0 1px 1px rgba(19, 42, 105, 0.2), 
+    0 2px 2px rgba(19, 42, 105, 0.2), 
+    0 4px 4px rgba(19, 42, 105, 0.2), 
+    0 8px 8px rgba(31, 66, 161, 0.2),
+    0 16px 16px rgba(19, 42, 105, 0.2);
+    border: 10px double rgb(231, 229, 229);
+  }
+  .introduction-fonts {
+    margin: auto auto;
+    width: 69vh;
+    padding: 5vh;
+    letter-spacing: 4px;
+    color: white;
+    text-shadow: -3.5px 3.5px rgba(70, 68, 68, 0.5);
+    font-family: var(--intro-font);
+  }
+  .introduction-fonts h2 {
+    font-size: 2.5rem;
+    position: relative;
+    margin-bottom: 0;
+  }
+  .introduction-fonts h4 {
+    font-size: 1.2rem;
+    position: relative;
+    margin: 1% 0 0 0;
+    padding-bottom: 5%;
+  }
+  .introduction:hover h2 {
+    transition: 1.5s;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  .icon {
+    margin-right: 10%;
+    padding: 0;
+  }
+  .icon img {
+    width: 200px;
+    height: 200px;
+  } 
+
+  @media (max-width: 650px) {
+    .introduction {
+      width: 85%;
+    }
+    .introduction-fonts h2 {
+      font-size: 1.2rem;
+      position: relative;
+      margin: 0;
+      letter-spacing: 5px;
+    }
+    .introduction-fonts h4 {
+      font-size: .75rem;
+      position: relative;
+      text-align: left;
+      margin: 1% 0 0 0;
+      padding-bottom: 5%;
+    }
+    .icon img {
+      margin: 25% 0 0 0;
+      width: 100px;
+      height: 100px;
+    } 
+  }

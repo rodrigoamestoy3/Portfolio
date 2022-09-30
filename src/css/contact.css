@@ -1,0 +1,53 @@
+.contact-container {
+    padding: 40vh 0;
+    padding-bottom: 10vh;
+    background-color: var(--custom-blue);
+    color: var(--custom-white);
+  }
+  .contact-container h2 {
+    font-family: var(--logo-font);
+    margin-top: -15vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .email-form p {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--links-font);
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 3hv;
+    margin-bottom: 5vh;
+  }
+    form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  form .row {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  form button {
+    border: none;
+    width: 50%;
+    font-family: var(--links-font);
+    padding: 1%;
+    margin-top: 5%;
+    align-self: center;
+  }
+  form .row button:hover {
+    background-color: rgb(190, 190, 190);
+  }
+  form label {
+    margin: 10px auto;
+  }
+  form input {
+    width: 90%;
+    margin: 10px auto;
+    padding: 1%;
+  }

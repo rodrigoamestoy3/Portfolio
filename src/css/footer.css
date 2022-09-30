@@ -1,0 +1,31 @@
+.footer {
+    background-color: rgb(30, 31, 48);
+    padding: 1% 0 1% 0;
+  }
+  .footer img {
+    margin: 0 2vh;
+    width: 25px;
+    height: 25px;
+    padding: 1vh;
+    cursor: pointer;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .icons a {
+    margin-top: 1%;
+    text-decoration: none;
+    font-family: var(--info-h4-font);
+    color: var(--custom-white);
+  }
+  .icons img:hover {
+    transition: 1s;
+    width: 30px;
+    height: 30px;
+  }
+  .icons a:hover {
+    transition: 1s;
+    font-size: 1.2rem;
+  }

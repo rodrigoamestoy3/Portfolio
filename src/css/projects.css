@@ -1,0 +1,106 @@
+.projects-container {
+    background-color: var(--custom-blue);
+    padding: 40vh 0vh;
+    font-family: var(--logo-font);
+    display: flex;
+    flex-direction: column;
+  }
+  .projects-title {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    margin-top: -15vh;
+    padding-bottom: 10vh;
+
+  }
+  .more-projects {
+    margin: 1% auto;
+  }
+  .more-projects button {
+    width: 100%;
+    padding: 2%;
+    margin: 10px auto;
+    font-family: fantasy;
+    background-color: #F8F9F9 ;
+    color: black;
+  }
+  .more-projects button:hover {
+    background-color: #F8F9F9 ;
+    transition: 1s;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .project:hover img {
+    opacity: 0.3;
+  }
+  .project:hover .overlay {
+    opacity: 1;
+  }
+  .swiper {
+    width: 800px;
+    height: 650px;
+    text-align: center;
+    justify-content: center;
+  }
+  .swiper figcaption {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 8rem;
+    font-weight: bold;
+    z-index: -1;
+  }
+  .swiper img {
+    width: 700px;
+    height: 600px;
+    border-radius: 2%;
+  }
+  .swiper img:hover {
+    opacity: 0.5;
+  }
+  .swiper button {
+    background-color: red;
+    position: absolute;
+    top: 45%;
+    bottom: 50%;
+    left: 50%;
+    cursor: pointer;
+  }
+  .p-fig {
+    display: none;
+  }
+
+  @media (max-width: 700px) {
+    .swiper {
+      width: 370px;
+      height: 300px;
+      text-align: center;
+      justify-content: center;
+    }
+    .swiper img {
+      width: 300px;
+      height: 250px;
+      border-radius: 2%;
+    }
+    .swiper figcaption {
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      font-size: 2rem;
+      font-weight: bold;
+      z-index: -1;
+    }
+    .swiper img:hover {
+      opacity: 0.5;
+    }
+    .swiper figcaption {
+      display: none;
+    }
+    .p-fig {
+      font-size: 1.2rem;
+      display: block;
+      margin: 1% auto 2% auto;
+    }
+  }
+  
