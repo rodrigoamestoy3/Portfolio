@@ -1,19 +1,26 @@
 import React from "react";
 
-const toggleNavbar = () => {
-    document.getElementsById("toggle-btn").classList.toggle('active');
-}
+class NavbarDropdown extends React.Component {
+    constructor(props) {
+        super(props);
+        this.handleClick = this.handleClick.bind(this);
+    }
 
-const NavbarDropdown = () => {
+    handleClick(event) {
+        event.target.classList.toggle('active');
+    }
+
+    render() {
     return(
         <div>
-            <a href="#." onClick={ toggleNavbar } class="toggle-button" id="toggle-btn">
+            <a href="#." onClick={ this.handleClick } class="toggle-button" id="toggle-btn">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </a>
         </div>
-    )
+        );
+    }   
 }
 
 export default NavbarDropdown;
