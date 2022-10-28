@@ -1,8 +1,5 @@
 import React from "react";
 import '../css/projects.css';
-import ECOMMERCE from '../img/ecommerce.jpg';
-import TODOLIST from '../img/todolist.jpg';
-import NASA from '../img/nasa.jpg';
 import Presentation from "../components/pure/Swiper";
 
 class ProjectsContainer extends React.Component {

@@ -1,8 +1,8 @@
 import React from "react";
-import "../css/intro.css";
-import icon from "../img/intro-icon.png"
+import "../../css/intro.css";
+import icon from "../../img/intro-icon.png"
 
-const IntroContainer = () => {
+const Intro = () => {
     return(
         <div className="introduction">
             <div className="introduction-fonts">
@@ -16,4 +16,4 @@ const IntroContainer = () => {
     );
 }
 
-export default IntroContainer;
+export default Intro;

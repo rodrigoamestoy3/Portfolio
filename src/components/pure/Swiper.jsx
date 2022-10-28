@@ -33,19 +33,17 @@ const Presentation = () => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log()}
-      onSlideChange={() => console.log()}
     >
       <SwiperSlide>
-      <img src={ECOMMERCE} onClick={ openEcommerce }/>
+      <img src={ECOMMERCE} alt="Ecommerce" onClick={ openEcommerce }/>
       <figcaption>TAP ME</figcaption>
       </SwiperSlide>
       <SwiperSlide>
-      <img src={TODOLIST} onClick={ openToDoList }/>
+      <img src={TODOLIST} alt="ToDoList" onClick={ openToDoList }/>
       <figcaption>TAP ME</figcaption>
       </SwiperSlide>
       <SwiperSlide>
-      <img src={NASA} onClick={ openNASA }/>
+      <img src={NASA} alt="Nasa" onClick={ openNASA }/>
       <figcaption>TAP ME</figcaption>
       </SwiperSlide>
     </Swiper>

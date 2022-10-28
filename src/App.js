@@ -1,6 +1,6 @@
 import './css/App.css';
 import Navbar from './Nav';
-import IntroContainer from './container/IntroContainer';
+import IntroContainer from './components/pure/Intro';
 import ProjectsContainer from './container/ProjectsContainer';
 import AboutMe from './container/AboutMeContainer';
 import ContactContainer from './container/ContactContainer';
