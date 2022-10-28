@@ -6,7 +6,6 @@ import AboutMe from './container/AboutMeContainer';
 import ContactContainer from './container/ContactContainer';
 import Footer from './container/Footer';
 
-
 function App() {
   return (
     <div>
