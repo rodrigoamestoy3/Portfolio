@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.68fcac1f.css",
+    "main.js": "/Portfolio/static/js/main.08d09ad9.js",
+    "static/media/Rodrigo_Amestoy_en.pdf": "/Portfolio/static/media/Rodrigo_Amestoy_en.2969c663d61ee6b87f1e.pdf",
+    "static/media/nasa.jpg": "/Portfolio/static/media/nasa.a5ca8c9b85d35a303bb9.jpg",
+    "static/media/todolist.jpg": "/Portfolio/static/media/todolist.66c68babd8026f1542ce.jpg",
+    "static/media/ecommerce.jpg": "/Portfolio/static/media/ecommerce.a5c27a1945ab28cb5d55.jpg",
+    "static/media/react.png": "/Portfolio/static/media/react.809fed23bcdd686de66e.png",
+    "static/media/sql-server.png": "/Portfolio/static/media/sql-server.e10b540b6924da3831f5.png",
+    "static/media/intro-icon.png": "/Portfolio/static/media/intro-icon.569da3659c41a7c40aa0.png",
+    "static/media/github.png": "/Portfolio/static/media/github.a5527b5c02e754fc4a6d.png",
+    "static/media/html-5.png": "/Portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
+    "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/css-3.png": "/Portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/Portfolio/index.html",
+    "main.68fcac1f.css.map": "/Portfolio/static/css/main.68fcac1f.css.map",
+    "main.08d09ad9.js.map": "/Portfolio/static/js/main.08d09ad9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68fcac1f.css",
+    "static/js/main.08d09ad9.js"
+  ]
+}
